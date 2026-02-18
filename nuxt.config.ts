@@ -8,4 +8,9 @@ export default defineNuxtConfig({
 			"@tailwindcss/postcss": {},
 		},
 	},
+	nitro: {
+		experimental: {
+			websocket: true,
+		},
+	},
 });
